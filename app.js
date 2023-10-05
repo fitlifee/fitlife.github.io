@@ -9,6 +9,6 @@ ScrollReveal().reveal('.frutas', { delay: 1100 });
 ScrollReveal().reveal('.pre', { delay: 1300 });
 ScrollReveal().reveal('.prote', { delay: 1500 });
 ScrollReveal().reveal('.argi', { delay: 1700 });
-ScrollReveal().reveal('.creati', { delay: 1900 });
+
 
 ScrollReveal().reveal('.reloj', { delay: 2300 });
