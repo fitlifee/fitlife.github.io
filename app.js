@@ -1,6 +1,6 @@
 ScrollReveal().reveal('.comidas', { delay: 250 });
 ScrollReveal().reveal('.suplementos', { delay: 1000 });
-ScrollReveal().reveal('.planes', { delay: 2100 });
+ScrollReveal().reveal('.planes', { delay: 1900 });
 
 ScrollReveal().reveal('.cesar', { delay: 700 });
 ScrollReveal().reveal('.papas', { delay: 900 });
@@ -11,4 +11,4 @@ ScrollReveal().reveal('.prote', { delay: 1500 });
 ScrollReveal().reveal('.argi', { delay: 1700 });
 
 
-ScrollReveal().reveal('.reloj', { delay: 2300 });
+ScrollReveal().reveal('.reloj', { delay: 2100 });
