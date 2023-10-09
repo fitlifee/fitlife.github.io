@@ -2,6 +2,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+p{
+    text-align: justify;
+}
 
 .box input{
     width: 95%;
