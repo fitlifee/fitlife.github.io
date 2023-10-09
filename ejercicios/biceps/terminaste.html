@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Página de Contador</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://cdn.create.vista.com/api/media/small/167956050/stock-photo-strong-man-showing-muscles');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: white;
+        }
+
+        p{
+            font-size: 20px;
+            color: #fff;
+        }
+
+        #contador {
+            font-size: 48px;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="contador">10</div>
+    <h1 class="text-center">¡Terminaste tu rutina de hoy! 🏁</h1>
+    <p>-100 kal</p>
+    <p>Un pasito más cerca de mejorar...</p>
+    
+
+    <script>
+        // Función para actualizar el contador y redirigir
+        function actualizarContador() {
+            var contadorElement = document.getElementById("contador");
+            var valor = parseInt(contadorElement.innerText);
+
+            if (valor > 0) {
+                contadorElement.innerText = (valor - 1).toString();
+            } else {
+                // Redirige a "go:index" cuando el contador llega a 0
+                window.location.href = "go:index";
+            }
+        }
+
+        // Actualiza el contador cada segundo
+        setInterval(actualizarContador, 1000);
+    </script>
+</body>
+</html>
